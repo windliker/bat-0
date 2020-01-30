@@ -16,3 +16,11 @@ $ git diff readme.txt
 $ git add readme.txt
 6. 提交暂存区到仓库
 $ git commit -m "added the readme.txt"
+7. 查看提交记录
+$ git log
+8. 查看所有仓库修改记录
+$ git reflog
+9. 版本重置(HEAD仓库最新版本，HEAD^上一版本，HEAD^^上上版本，HEAD~10上10个版本，
+还可指定版本号)
+$ git reset --hard HEAD^
+$ git reset --hard 308a216

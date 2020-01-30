@@ -10,7 +10,9 @@ $ git config --global user.email "windlike@example.com"
 $ git init
 3. 查看git状态
 $ git status
-4. 添加到暂存区
+4. 与暂存区对比变化
+$ git diff readme.txt
+5. 添加到暂存区
 $ git add readme.txt
-5. 提交暂存区到仓库
+6. 提交暂存区到仓库
 $ git commit -m "added the readme.txt"

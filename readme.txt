@@ -14,7 +14,7 @@ $ git status
 $ git diff readme.txt
 5. 添加到暂存区
 $ git add readme.txt
-6. 提交暂存区到仓库
+6. 提交暂存区所有修改到仓库
 $ git commit -m "added the readme.txt"
 7. 查看提交记录
 $ git log

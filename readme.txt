@@ -21,7 +21,11 @@ $ git commit -m "added the readme.txt"
 $ git log
 8. 查看所有仓库修改记录
 $ git reflog
-9. 版本重置(HEAD仓库最新版本，HEAD^上一版本，HEAD^^上上版本，HEAD~10上10个版本，
+9. 本地仓库版本重置(HEAD仓库最新版本，HEAD^上一版本，HEAD^^上上版本，HEAD~10上10个版本，
 还可指定版本号)
 $ git reset --hard HEAD^
 $ git reset --hard 308a216
+10. 撤销工作区文件所有修改,回到最近一次git add或git commit
+$ git checkout -- readme.txt
+11. 打回暂存区文件所有修改到工作区
+$ git reset HEAD readme.txt

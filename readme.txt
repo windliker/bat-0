@@ -37,5 +37,10 @@ $ git reset --hard 308a216
 10. 打回暂存区文件所有修改到工作区
 $ git reset HEAD readme.txt
 
-11. 撤销工作区文件所有修改,回到最近一次git add或git commit
+11. 撤销工作区文件所有修改（替换、工作区文件删除还原）,回到最近一次git add或git commit
 $ git checkout -- readme.txt
+
+12. 删除文件(工作区删除、暂存区删除、本地仓库删除)
+$ rm test.txt
+$ git rm test.txt
+$ git commit -m "remove test.txt"
